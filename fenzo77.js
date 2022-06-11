@@ -152,9 +152,9 @@ const isRakyat = isCreator || global.rkyt.map(v => v.replace(/[^0-9]/g, '') + '@
 const AntiLink = m.isGroup ? ntilink.includes(from) : false
 const welcm = m.isGroup ? wlcm.includes(from) : false
 const GcRvk = m.isGroup ? gcrevoke.includes(from) : false
-const isLeveling = m.isGroup ? _leveling.includes(from) : true
+const isLeveling = m.isGroup ? _leveling.includes(from) : false
 const isAutoStick = _autostick.includes(from)
-const isAutoSticker = m.isGroup ? autosticker.includes(from) : true
+const isAutoSticker = m.isGroup ? autosticker.includes(from) : false
 const isSewa = _sewa.checkSewaGroup(from, sewa)
 autoreadsw = true
 // Quoted
