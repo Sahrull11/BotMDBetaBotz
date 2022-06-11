@@ -154,7 +154,7 @@ const welcm = m.isGroup ? wlcm.includes(from) : true
 const GcRvk = m.isGroup ? gcrevoke.includes(from) : true
 const isLeveling = m.isGroup ? _leveling.includes(from) : true
 const isAutoStick = _autostick.includes(from)
-const isAutoSticker = m.isGroup ? autosticker.includes(from) : true
+const isAutoSticker = m.isGroup ? autosticker.includes(from) : false
 const isSewa = _sewa.checkSewaGroup(from, sewa)
 autoreadsw = true
 // Quoted
