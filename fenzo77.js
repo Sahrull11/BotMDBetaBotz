@@ -1082,18 +1082,18 @@ participant: `0@s.whatsapp.net`, ...(from ?
 },
 message: { 
  "videoMessage": { 
- "title":"Lol Lexxy+",
+ "title":"Lol ArullOfc+",
  "h": `Hmm`,
  'seconds': "30", 
  'gifPlayback': 'true', 
- 'caption': 'Lol Lexxy+',
+ 'caption': 'Lol ArullOfc+',
  'jpegThumbnail': log0
 }
 }
 } 
 //FAKEREPLY TEXT WITH THUMBNAIL
 const fakey = (teks) => {
-            mans.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `Join Jadi Hengker 😎`,"body": `Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./media/fenzo.jpg`),"sourceUrl": "https://chat.whatsapp.com/E3zewfxrc5pKE6Rzb3BuqG"}}}, { quoted: m})
+            mans.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `Join Ngab Digc Ofc ArullBotzMD`,"body": `Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./media/fenzo.jpg`),"sourceUrl": "https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1"}}}, { quoted: m})
         }
 const ftextt = {
 key: { 
@@ -3132,7 +3132,7 @@ var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-mans.sendMessage(from, {text: `*PERINGATAN!!! jika bukan admin jangan send link di group ini*`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+mans.sendMessage(from, {text: `*PERINGATAN!!! jika bukan admin jangan send link di group ini,Tar Kamu Akan Hilang*`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
 if (!AntiLink) return m.reply('Sudah Mati')
 let off = ntilink.indexOf(from)
@@ -3524,8 +3524,8 @@ text: "Lol ArullOfc+",
 isForwarded: true,
 sendEphemeral: true,
 "externalAdReply": {
-"title": `Lol Lexxy+`,
-"body": `Lol Lexxy+`,
+"title": `Lol ArullOfc+`,
+"body": `Lol ArullOfc+`,
 "previewType": "PHOTO",
 "thumbnailUrl": thum,
 "thumbnail": thum,
@@ -3701,7 +3701,7 @@ content: [{ tag: "invite", attrs: { code: vcc } }]
 sizny = res.content[0].attrs.size
 if (sizny < 50) {
 teks = `Maaf anggota group anda kurang dari 50, minimal agar bot join harus mempunyai lebih dari 50 anggota`
-sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./media/image/mans.jpg'), 2022, "Lol Lexxy+ ~ Multi Device", "6283155687629@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
+sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./media/image/mans.jpg'), 2022, "Lol ArullOfc+ ~ Multi Device", "6285822347348@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
 } else if (sizny > 50) {
 await mans.groupAcceptInvite(vcc).then(async(res) => m.reply(jsonformat(res))).catch(_ => _)
 m.reply("Succes")
@@ -4393,7 +4393,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© Lol Lexxy+",
+footer: "© Lol ArullOfc+",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -4433,7 +4433,7 @@ footer: "© Lol ArullOfc+",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Lol Lexxy+ - Facebook Downloader",
+title:"Lol ArullOfc+ - Facebook Downloader",
 body:"facebook downloader",
 thumbnail: log0,
 mediaType:1,
@@ -4687,7 +4687,7 @@ let buttons = [
 let buttonMessage = {
 image: {url:res.thumb},
 caption: textyt,
-footer: "© Lol Lexxy+",
+footer: "© Lol ArullOfc+",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
