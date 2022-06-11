@@ -19,7 +19,7 @@ global.author = "ArullOfc"
 global.sessionName = "session"
 global.namebot = "ArullBotzMD"
 global.linkgrupss = "https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1"
-global.antitags = true
+global.antitags = ['6281348735630@s.whatsapp.net']
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.mess = {
     success: '*Success!*',
