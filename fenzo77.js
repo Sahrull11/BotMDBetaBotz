@@ -148,11 +148,11 @@ const isUser = pendaftar.includes(m.sender)
 //const lakal = (m.mtype === 'conversation' && m.message.conversation) ? m.message.conversation : (m.mtype == 'imageMessage') && m.message.imageMessage.caption ? m.message.imageMessage.caption : (m.mtype == 'documentMessage') && m.message.documentMessage.caption ? m.message.documentMessage.caption : (m.mtype == 'videoMessage') && m.message.videoMessage.caption ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') && m.message.extendedTextMessage.text ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage' && m.message.buttonsResponseMessage.selectedButtonId) ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'templateButtonReplyMessage') && m.message.templateButtonReplyMessage.selectedId ? m.message.templateButtonReplyMessage.selectedId : ''
 // Other
 const isBan = banUser.includes(m.sender)
-const isRakyat = isCreator || global.rkyt.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || true
-const AntiLink = m.isGroup ? ntilink.includes(from) : true
+const isRakyat = isCreator || global.rkyt.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false
+const AntiLink = m.isGroup ? ntilink.includes(from) : false
 const welcm = m.isGroup ? wlcm.includes(from) : true
 const GcRvk = m.isGroup ? gcrevoke.includes(from) : false
-const isLeveling = m.isGroup ? _leveling.includes(from) : true
+const isLeveling = m.isGroup ? _leveling.includes(from) : false
 const isAutoStick = _autostick.includes(from)
 const isAutoSticker = m.isGroup ? autosticker.includes(from) : false
 const isSewa = _sewa.checkSewaGroup(from, sewa)
