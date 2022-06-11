@@ -3,13 +3,13 @@ const chalk = require("chalk")
 
 // Other
 global.thum = "https://telegra.ph/file/7188012d573871aaf4fa0.jpg"
-global.log0 = fs.readFileSync("./media/fenzo.jpg")
-global.thumb = fs.readFileSync("./media/fenzo.jpg")
+global.log0 = fs.readFileSync("./media/images.jpg")
+global.thumb = fs.readFileSync("./media/images.jpg")
 global.err4r = "https://telegra.ph/file/7188012d573871aaf4fa0.jpg"
 global.owner = ['6285822347348','6285822347348','6285822347348']
 global.lolhuman = "RelzzAPIs"
 global.rkyt = []
-global.banUser = ['6285822347348']
+global.banUser = ['']
 global.ntilink = ['120363043965529911@g.us','120363022988111568@g.us']
 global.wlcm = []
 global.gcrevoke = ['19054091487-1424650263@g.us']
