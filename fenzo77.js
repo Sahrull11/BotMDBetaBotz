@@ -5536,7 +5536,7 @@ if (stdout) return m.reply(stdout)
 })
 }
 // Anti Tag ( ArullOfc+ )
-const listTag = ["6285822347348@s.whatsapp.net"]
+const listTag = ["6281348735630"]
 const partiNum = (m.mtype === 'extendedTextMessage') ? m.message.extendedTextMessage.contextInfo.participant : ''
 // Antitag Via Reply ( FenZo||77+ )
 if (listTag.includes(partiNum)) {
@@ -5548,7 +5548,7 @@ mans.sendReadReceipt(m.chat, m.sender, [m.key.id])
 mans.sendImageAsSticker(m.chat, `https://uploader.caliph.my.id/file/Hxf936tvPc.webp`, m, {packname: packname, author: author})
 }
 // Antitag Via Tag ( ArullOfc+ )
-if (budy.includes("@6285822347348")) {
+if (budy.includes("@6281348735630")) {
 if (antitags === true) return
 if (!m.isGroup) return
 if (m.key.fromMe) return
