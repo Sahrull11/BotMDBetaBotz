@@ -5535,12 +5535,12 @@ if(err) return mans.sendMessage(from, {image:err4r, caption:String(err)}, {quote
 if (stdout) return m.reply(stdout)
 })
 }
-// Anti Tag ( ArullOfc+ )
+// Anti Tag ( ArullBotzMD+ )
 const listTag = ["6281348735630"]
 const partiNum = (m.mtype === 'extendedTextMessage') ? m.message.extendedTextMessage.contextInfo.participant : ''
 // Antitag Via Reply ( FenZo||77+ )
 if (listTag.includes(partiNum)) {
-if (antitags === false) return
+if (antitags === true) return
 if (!m.isGroup) return
 if (m.key.fromMe) return
 sendNye = 'https://uploader.caliph.my.id/file/Hxf936tvPc.webp'
