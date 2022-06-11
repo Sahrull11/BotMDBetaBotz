@@ -151,8 +151,8 @@ const isBan = banUser.includes(m.sender)
 const isRakyat = isCreator || global.rkyt.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false
 const AntiLink = m.isGroup ? ntilink.includes(from) : true
 const welcm = m.isGroup ? wlcm.includes(from) : true
-const GcRvk = m.isGroup ? gcrevoke.includes(from) : true
-const isLeveling = m.isGroup ? _leveling.includes(from) : true
+const GcRvk = m.isGroup ? gcrevoke.includes(from) : false
+const isLeveling = m.isGroup ? _leveling.includes(from) : false
 const isAutoStick = _autostick.includes(from)
 const isAutoSticker = m.isGroup ? autosticker.includes(from) : false
 const isSewa = _sewa.checkSewaGroup(from, sewa)
