@@ -23,13 +23,13 @@ global.antitags = ['6281348735630@s.whatsapp.net']
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.mess = {
     success: '*Success!*',
-    admin: '*Fitur Khusus Admin Group!*',
-    botAdmin: '*Bot Harus Menjadi Admin Terlebih Dahulu!*',
-    owner: '*Fitur Khusus Owner Bot*',
+    admin: '*Fitur Khusus Admin Group Cuy!*',
+    botAdmin: '*Bot Aja Bukan Admin Anj‼️*',
+    owner: '*Fitur Khusus ArullOfc*',
     group: '*Fitur Digunakan Hanya Untuk Group!*',
     private: '*Fitur Digunakan Hanya Untuk Private Chat!*',
     bot: '*Fitur Khusus Pengguna Nomor Bot*',
-    wait: '*Silahkan Menunggu!*',
+    wait: '*Tunggu Sebentar Y Sayang ...Kalo Lama Balasnya Mungkin Delay)!*',
     linkm: 'Linknya Mana Kak?',
     ban: '*Kamu telah dibanned oleh owner, Jika ingin di unbanned chat owner*'
 }
